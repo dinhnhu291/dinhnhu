@@ -9,6 +9,28 @@ body
     background-color: orange;
     font-size: 1.3rem;
 }
+/* index */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    margin: auto;
+}
+.header ul,li{
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline-block;
+    width: auto;
+}
+.header ul li a {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    color: white;
+    text-decoration: none;
+}
 .header_conten{
     display: flex;
     flex-direction: column;
@@ -28,4 +50,74 @@ body
     color: white;
     margin-top: 10px;
     align-self: center;
+}
+/* Đăng Ký */
+.backround_dangky{
+    background-color: gray;
+}
+.dangky{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ 
+ color: white;
+ text-align: center;
+ width: 80%;
+ margin: auto;
+ padding: 70px 0;
+ 
+}
+.title{
+    width: 80%;
+    color: palevioletred;
+    text-align: left;
+    align-self: left;
+}
+.conten{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ 
+ text-align: left;
+ width: 100%;
+ margin: auto;
+ padding-top: 10px;
+}
+.conten label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding: 5px 0;
+}
+.conten input{
+    color: pink;
+    font-size: 18px;
+}
+.conten_left{
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+ padding: 10px;
+}
+
+.conten_right{
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+ padding: 10px;
+}
+.form{
+    padding: 15px 0;
+}
+.conten_button button{
+    width: 200px;
+    background-color: black;
+    border: 1px ;
+    border-radius: 10px ;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 10px;
+    align-self: center;
+    text-align: center;
 }
