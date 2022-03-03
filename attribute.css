@@ -24,6 +24,7 @@ body
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 .video1{
     display: flex;
@@ -39,5 +40,9 @@ body
     text-align: center;
     background-color: red;
     
+}
+.video iframe {
+    height: 480px;
+   width: 640px;
 }
 
