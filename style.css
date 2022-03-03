@@ -32,14 +32,18 @@ body
     text-decoration: none;
 }
 .header_conten{
+    background-color:darkred;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     color: white;
     text-align: center;
-    width: 60%;
+    width: 100%;
     margin: auto;
     padding: 70px 0;
+}
+.header_conten h1{
+    color:  red;
 }
 .header_conten button{
     width: 200px;
